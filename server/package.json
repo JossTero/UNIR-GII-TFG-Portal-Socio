@@ -1,7 +1,7 @@
 {
-  "name": "asociaciones-back",
+  "name": "portal-socio-back",
   "version": "1.0.0",
-  "description": "Servidor back para aplicación web para gestión de asociaciones sin ánimo de lucro",
+  "description": "Servidor back para aplicación web de consulta y gestión de socio de asociación sin ánimo de lucro",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,20 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JossTero/UNIR-GII-TFG-Asociaciones.git"
+    "url": "git+https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio.git"
   },
   "keywords": [
     "TFG",
+    "Portal",
     "Asociaciones",
+    "Socio",
     "UNIR",
     "GII"
   ],
   "author": "José Antonio Otero Martín",
-  "license": "ISC",
+  "license": "CC-BY-NC-ND-4.0.",
   "bugs": {
-    "url": "https://github.com/JossTero/UNIR-GII-TFG-Asociaciones-Backend/issues"
+    "url": "https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio.git/issues"
   },
-  "homepage": "https://github.com/JossTero/UNIR-GII-TFG-Asociaciones-Backend#readme",
+  "homepage": "https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio.git#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
