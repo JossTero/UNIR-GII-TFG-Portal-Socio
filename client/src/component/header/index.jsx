@@ -1,16 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import { getImageFromBuffer } from '../../helpers/util';
 import { useAssociation } from '../../context/associationContext';
 import { getRouteUser } from '../../helpers/navigateRoute';
 import Author from './Author';
 
-function Header() {
-  const { user, association, getAssociation } = useAssociation();
-
-  useState(() => {
-    getAssociation();
-  }, [getAssociation]);
+function Header({ association }) {
+  const { user } = useAssociation();
 
   const [subNav, setSubNav] = useState(false);
   useEffect(() => {
@@ -36,7 +32,10 @@ function Header() {
                 <div className="crancy-header__left">
                   {/* <!-- Logo --> */}
                   <div className=" logo crancy-sidebar-padding pd-right-0">
-                    <Link className="crancy-smenu crancy-logo" to={getRouteUser(user, '/perfil-socio/noticias')}>
+                    <Link
+                      className="crancy-smenu crancy-logo"
+                      to={getRouteUser(user, '/perfil-socio/noticias')}
+                    >
                       {/* <!-- Logo for Default --> */}
                       <img
                         className="crancy-logo__main"

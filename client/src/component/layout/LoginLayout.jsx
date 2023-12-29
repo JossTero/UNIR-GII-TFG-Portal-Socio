@@ -44,7 +44,7 @@ function LoginLayout({ association, children }) {
                   </div>
                 </div>
                 {/* <!-- End Welcome Banner --> */}
-                <Footer />
+                <Footer association={association} />
               </div>
             </div>
           </div>

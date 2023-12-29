@@ -1,14 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useAssociation } from '../../context/associationContext';
 
-function Footer() {
-  const { association, getAssociation } = useAssociation();
-
-  useState(() => {
-    getAssociation();
-  }, [getAssociation]);
-
+function Footer({ association }) {
   return (
     <footer className="crancy-wc__footer--top">
       <div className="crancy-wc__footer">
