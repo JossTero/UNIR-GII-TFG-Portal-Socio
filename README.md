@@ -122,6 +122,9 @@ El socio accede la sección de documentos, donde puede consultar en orden descen
 El socio accede a la información de la asociación, consultando tanto la información de la asociación como de la junta directiva actual.
 ![Asociación](https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio/blob/main/additional/img/portal/06_JAOM_UNIR_GII_TFG_Portal_del_socio_Asociaci%C3%B3n_de_estudiantes_de_la_UNIR_Asociaci%C3%B3n_Junta_directiva.PNG)
 
+Vista completa del portal.
+![Asociación](https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio/blob/main/additional/img/portal/08_JAOM_UNIR_GII_TFG_Portal_del_socio_Asociaci%C3%B3n_de_estudiantes_de_la_UNIR_Vista_completa)
+
 ### Licenciamiento
 
 ![Licencia](https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio/blob/main/additional/img/license/licencias-creative-commons-04.png)
