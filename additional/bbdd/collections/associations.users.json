@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "65147f5f26564de9d1b8056b"
+  },
+  "username": "administrador@gmail.com",
+  "password": "$2a$10$hfeSO5c6cSFOosyq42qTb.spunVFsCGBzrvliXL6ILajOlBP2O0EG",
+  "email": "administrador@gmail.com",
+  "name": "Administrador",
+  "surname": "Del sistema",
+  "secondSurname": "",
+  "type": "ADMIN",
+  "status": "ACTI",
+  "associationCode": "",
+  "auditUser": "administrador",
+  "registrationDate": {
+    "$date": "2023-09-27T19:15:43.579Z"
+  },
+  "auditDate": {
+    "$date": "2023-09-27T19:15:43.579Z"
+  },
+  "createdAt": {
+    "$date": "2023-09-27T19:15:43.580Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-27T19:15:43.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eafb1872753c2bede9703"
+  },
+  "username": "joseenrique.ayala@estudiantes-unir.es",
+  "password": "$2a$10$v.rc1nOpG2QwP9wdnTg1/eizfUJHHDnigeR25swCYFCPgB5WElfL6",
+  "email": "joseenrique.ayala@estudiantes-unir.es",
+  "name": "José Enrique",
+  "surname": "Ayala",
+  "secondSurname": "Olmo",
+  "type": "PARTNER",
+  "status": "ACTI",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "auditUser": "administrador@gmail.com",
+  "registrationDate": {
+    "$date": "2023-12-29T11:38:25.398Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:38:25.398Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:38:25.398Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:38:25.398Z"
+  },
+  "__v": 0
+}]

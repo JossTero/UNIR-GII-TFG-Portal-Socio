@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "658eb207872753c2bee0b4bc"
+  },
+  "type": "NOTI",
+  "finishDate": null,
+  "title": "Acta de la asamblea del día 14 de marzo de 2023",
+  "text": "Buenas tardes, adjunto el acta de la asamblea del día 14 de marzo de 2023. Muchas gracias a todos.",
+  "image": "",
+  "author": "Presidente de la asociación",
+  "importanceLevel": "MEDI",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "publicationDate": {
+    "$date": "2023-12-29T11:48:23.663Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:48:23.663Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:48:23.664Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:48:23.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb216872753c2bee0c570"
+  },
+  "type": "EVEN",
+  "finishDate": null,
+  "title": "Evento gastronómico durante el 20 de mayo de 2023",
+  "text": "Información del evento gastronómico que se va a realizar el sábado 20 de mayo de 2023 en la ciudad de logrono: Almuerzo, comida y merienda. Más información en la documentación adjunta.",
+  "image": "",
+  "author": "Presidente de la asociación",
+  "importanceLevel": "MEDI",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "publicationDate": {
+    "$date": "2023-12-29T11:48:38.934Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:48:38.934Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:48:38.934Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:48:38.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb21b872753c2bee0cb61"
+  },
+  "type": "NOTI",
+  "finishDate": null,
+  "title": "Sorteo de cesta de navidad 2023",
+  "text": "En la sede de la asociación se pueden adquirir papeletas de la cesta de navidad por valor de 3€ y el ganador es el que coincida los 3 últimos números del número premiado con los 4.000.000,00€ de la lotería (El gordo de la navidad) del año 2023.",
+  "image": "",
+  "author": "Presidente de la asociación",
+  "importanceLevel": "BAJA",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "publicationDate": {
+    "$date": "2023-12-29T11:48:43.714Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:48:43.714Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:48:43.715Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:48:43.715Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb220872753c2bee0d15b"
+  },
+  "type": "NOTI",
+  "finishDate": null,
+  "title": "Venta de décimos de lotería para el sorteo de navidad 2023",
+  "text": "En la sede de la asociación se pondrá comprar el número 88.008 con un recardo de 2€ para el sorteo de navidad de 2023.",
+  "image": "",
+  "author": "Presidente de la asociación",
+  "importanceLevel": "BAJA",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "publicationDate": {
+    "$date": "2023-12-29T11:48:48.622Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:48:48.622Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:48:48.623Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:48:48.623Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb225872753c2bee0d74d"
+  },
+  "type": "ASOR",
+  "finishDate": null,
+  "title": "Convocatoria de asamblea ordinaria para el día 19 de septiembre de 2023",
+  "text": "Aviso de asamblea ordinaria para el martes 19 de septiembre de 2023 a las 19:00 horas en la sede de la asociación.",
+  "image": "",
+  "author": "Presidente de la asociación",
+  "importanceLevel": "MEDI",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "publicationDate": {
+    "$date": "2023-12-29T11:48:53.617Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:48:53.617Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:48:53.617Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:48:53.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb22a872753c2bee0ddb7"
+  },
+  "type": "ASEX",
+  "finishDate": null,
+  "title": "Convocatoria de asamblea extaordinaria para el día 22 de diciembre de 2023",
+  "text": "Aviso de asamblea extraordinaria para el viernes 22 de diciembre de 2023 a las 19:00 horas en la sede de la asociación.",
+  "image": "",
+  "author": "Presidente de la asociación",
+  "importanceLevel": "ALTA",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "publicationDate": {
+    "$date": "2023-12-29T11:48:58.895Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:48:58.895Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:48:58.895Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:48:58.895Z"
+  },
+  "__v": 0
+}]

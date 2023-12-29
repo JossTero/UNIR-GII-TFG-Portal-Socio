@@ -1,0 +1,176 @@
+[{
+  "_id": {
+    "$oid": "651dd9683ead1cc8673b0d3d"
+  },
+  "reference": "membershipfees#651866a23e993f0d222d10c3",
+  "__v": 0,
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "651dd9763ead1cc8673b0d48"
+  },
+  "reference": "membershipfeesituations#6519f132bb6aea8da2f0cf30",
+  "__v": 0,
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "651dea463ead1cc8673b1e0b"
+  },
+  "reference": "membershipfees#651dd8f5bfba0483804a6086",
+  "__v": 0,
+  "seq": 2
+},
+{
+  "_id": {
+    "$oid": "651ded893ead1cc8673b2124"
+  },
+  "reference": "membershipfeesituations#651deb90c2869dd29e1f24b1",
+  "__v": 0,
+  "seq": 3
+},
+{
+  "_id": {
+    "$oid": "652c675c3ead1cc8673b2f6a"
+  },
+  "reference": "auditStart",
+  "__v": 0,
+  "seq": 0
+},
+{
+  "_id": {
+    "$oid": "656c5fcc8551938e5a311630"
+  },
+  "reference": "membershipfees#656b81ded3b5af43b15e28f7",
+  "__v": 0,
+  "seq": 2
+},
+{
+  "_id": {
+    "$oid": "656c5fe78551938e5a311644"
+  },
+  "reference": "membershipfeesituations#656c5fccbb1fbe0acbbca6e6",
+  "__v": 0,
+  "seq": 5
+},
+{
+  "_id": {
+    "$oid": "656c8ca48551938e5a313966"
+  },
+  "reference": "membershipfeesituations#656c716a85e68125ae47ffb0",
+  "__v": 0,
+  "seq": 9
+},
+{
+  "_id": {
+    "$oid": "658c979931b9a733a4a791ed"
+  },
+  "reference": "membershipfeesituations#656c8ca4ef4ae4219e0dca57",
+  "__v": 0,
+  "seq": 44
+},
+{
+  "_id": {
+    "$oid": "658dfbeb31b9a733a4d2dbf4"
+  },
+  "reference": "membershipfees#658ddf35ff6c6ee5ea96700e",
+  "__v": 0,
+  "seq": 5
+},
+{
+  "_id": {
+    "$oid": "658dfc7031b9a733a4d31793"
+  },
+  "reference": "membershipfeesituations#658dfbeb89291d4ff01bf56f",
+  "__v": 0,
+  "seq": 3
+},
+{
+  "_id": {
+    "$oid": "658dfc9d31b9a733a4d32e0d"
+  },
+  "reference": "membershipfeesituations#658dfbf189291d4ff01bf8cc",
+  "__v": 0,
+  "seq": 4
+},
+{
+  "_id": {
+    "$oid": "658dfcb131b9a733a4d33826"
+  },
+  "reference": "membershipfeesituations#658dfbf689291d4ff01bfb45",
+  "__v": 0,
+  "seq": 4
+},
+{
+  "_id": {
+    "$oid": "658dfcc731b9a733a4d33e0c"
+  },
+  "reference": "membershipfeesituations#658dfbfa89291d4ff01bfdae",
+  "__v": 0,
+  "seq": 3
+},
+{
+  "_id": {
+    "$oid": "658e002131b9a733a4da6763"
+  },
+  "reference": "membershipfeesituations#658e001489291d4ff0252bc3",
+  "__v": 0,
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "658ea85d31b9a733a4ebed31"
+  },
+  "reference": "partners#asoc-estudiantes-unir",
+  "__v": 0,
+  "seq": 11
+},
+{
+  "_id": {
+    "$oid": "658eae3d31b9a733a4ebf142"
+  },
+  "reference": "membershipfees#658eac2b872753c2bede9623",
+  "__v": 0,
+  "seq": 5
+},
+{
+  "_id": {
+    "$oid": "658eaeb931b9a733a4ebf1be"
+  },
+  "reference": "membershipfeesituations#658eae3d872753c2bede968f",
+  "__v": 0,
+  "seq": 3
+},
+{
+  "_id": {
+    "$oid": "658eaebf31b9a733a4ebf1ca"
+  },
+  "reference": "membershipfeesituations#658eae43872753c2bede9696",
+  "__v": 0,
+  "seq": 3
+},
+{
+  "_id": {
+    "$oid": "658eaed331b9a733a4ebf1dd"
+  },
+  "reference": "membershipfeesituations#658eae48872753c2bede969d",
+  "__v": 0,
+  "seq": 3
+},
+{
+  "_id": {
+    "$oid": "658eaed831b9a733a4ebf1e6"
+  },
+  "reference": "membershipfeesituations#658eae4e872753c2bede96a4",
+  "__v": 0,
+  "seq": 2
+},
+{
+  "_id": {
+    "$oid": "658eaede31b9a733a4ebf1f1"
+  },
+  "reference": "membershipfeesituations#658eae52872753c2bede96ab",
+  "__v": 0,
+  "seq": 1
+}]

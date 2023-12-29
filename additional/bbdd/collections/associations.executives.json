@@ -1,0 +1,92 @@
+[{
+  "_id": {
+    "$oid": "658eaf05872753c2bede96df"
+  },
+  "position": "PRES",
+  "associationCode": "asoc-estudiantes-unir",
+  "boardOfDirectorsId": "658eaeef872753c2bede96d9",
+  "partnerId": "658ea85d872753c2bede95f2",
+  "auditUser": "administrador@gmail.com",
+  "positionDate": {
+    "$date": "2020-01-02T00:00:00.000Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:35:33.948Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:35:33.948Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:35:33.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaf0e872753c2bede96e5"
+  },
+  "position": "SECR",
+  "associationCode": "asoc-estudiantes-unir",
+  "boardOfDirectorsId": "658eaeef872753c2bede96d9",
+  "partnerId": "658ea8bf872753c2bede95f9",
+  "auditUser": "administrador@gmail.com",
+  "positionDate": {
+    "$date": "2020-01-02T00:00:00.000Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:35:42.455Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:35:42.455Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:35:42.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaf16872753c2bede96eb"
+  },
+  "position": "TESO",
+  "associationCode": "asoc-estudiantes-unir",
+  "boardOfDirectorsId": "658eaeef872753c2bede96d9",
+  "partnerId": "658ea9a6872753c2bede9600",
+  "auditUser": "administrador@gmail.com",
+  "positionDate": {
+    "$date": "2020-01-02T00:00:00.000Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:35:50.475Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:35:50.475Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:35:50.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaf1e872753c2bede96f1"
+  },
+  "position": "VOCA",
+  "associationCode": "asoc-estudiantes-unir",
+  "boardOfDirectorsId": "658eaeef872753c2bede96d9",
+  "partnerId": "658eaa02872753c2bede9607",
+  "auditUser": "administrador@gmail.com",
+  "positionDate": {
+    "$date": "2020-01-02T00:00:00.000Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:35:58.394Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:35:58.394Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:35:58.394Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "658eaeef872753c2bede96d9"
+  },
+  "status": "ACTI",
+  "associationCode": "asoc-estudiantes-unir",
+  "auditUser": "administrador@gmail.com",
+  "constitutionDate": {
+    "$date": "2020-01-02T00:00:00.000Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:35:11.601Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:35:11.601Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:35:11.601Z"
+  },
+  "__v": 0
+}]

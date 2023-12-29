@@ -1,0 +1,312 @@
+[{
+  "_id": {
+    "$oid": "658eaeb9872753c2bede96b2"
+  },
+  "situationNumber": 1,
+  "status": "EARR",
+  "reason": "PECO",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae3d872753c2bede968f",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T11:34:17.750Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:34:17.750Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:34:17.750Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:34:17.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaebf872753c2bede96ba"
+  },
+  "situationNumber": 1,
+  "status": "EARR",
+  "reason": "PECO",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae43872753c2bede9696",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T11:34:23.115Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:34:23.115Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:34:23.115Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:34:23.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaed3872753c2bede96c2"
+  },
+  "situationNumber": 1,
+  "status": "EARR",
+  "reason": "PECO",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae48872753c2bede969d",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T11:34:43.197Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:34:43.197Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:34:43.198Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:34:43.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaed8872753c2bede96ca"
+  },
+  "situationNumber": 1,
+  "status": "EARR",
+  "reason": "PECO",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae4e872753c2bede96a4",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T11:34:48.213Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:34:48.213Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:34:48.213Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:34:48.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eaede872753c2bede96d2"
+  },
+  "situationNumber": 1,
+  "status": "EARR",
+  "reason": "PECO",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae52872753c2bede96ab",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T11:34:54.594Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T11:34:54.594Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:34:54.594Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:34:54.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb6b6872753c2bee5171c"
+  },
+  "situationNumber": 2,
+  "status": "EARR",
+  "reason": "PEVA",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae3d872753c2bede968f",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "situationDate": {
+    "$date": "2023-12-29T12:08:22.857Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:08:22.857Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:08:22.857Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:08:22.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb6c8872753c2bee56084"
+  },
+  "situationNumber": 2,
+  "status": "EARR",
+  "reason": "PEVA",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae43872753c2bede9696",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "situationDate": {
+    "$date": "2023-12-29T12:08:40.166Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:08:40.166Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:08:40.166Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:08:40.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb6da872753c2bee5b189"
+  },
+  "situationNumber": 2,
+  "status": "EARR",
+  "reason": "PEVA",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae48872753c2bede969d",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "situationDate": {
+    "$date": "2023-12-29T12:08:58.946Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:08:58.946Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:08:58.946Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:08:58.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb6e8872753c2bee5eca9"
+  },
+  "situationNumber": 2,
+  "status": "EARR",
+  "reason": "PEVA",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae4e872753c2bede96a4",
+  "auditUser": "joseenrique.ayala@estudiantes-unir.es",
+  "situationDate": {
+    "$date": "2023-12-29T12:09:12.970Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:09:12.970Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:09:12.970Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:09:12.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb733872753c2bee6b097"
+  },
+  "situationNumber": 3,
+  "status": "CODE",
+  "reason": "COBR",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae3d872753c2bede968f",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T12:10:27.047Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:10:27.047Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:10:27.048Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:10:27.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb738872753c2bee6bde4"
+  },
+  "situationNumber": 3,
+  "status": "CODE",
+  "reason": "COBR",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae43872753c2bede9696",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T12:10:32.188Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:10:32.188Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:10:32.189Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:10:32.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658eb73d872753c2bee6cc08"
+  },
+  "situationNumber": 3,
+  "status": "CODE",
+  "reason": "COBR",
+  "paymentMethod": "EFEC",
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "membershipFeeId": "658eae48872753c2bede969d",
+  "auditUser": "administrador@gmail.com",
+  "situationDate": {
+    "$date": "2023-12-29T12:10:37.484Z"
+  },
+  "auditDate": {
+    "$date": "2023-12-29T12:10:37.484Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T12:10:37.485Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:10:37.485Z"
+  },
+  "__v": 0
+}]

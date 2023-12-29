@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "658eae3d872753c2bede968f"
+  },
+  "membershipNumber": 1,
+  "type": "ORDI",
+  "period": "ANUA",
+  "effectDate": {
+    "$date": "2020-01-02T00:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2021-01-02T00:00:00.000Z"
+  },
+  "membership": 15,
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "auditUser": "administrador@gmail.com",
+  "auditDate": {
+    "$date": "2023-12-29T11:32:13.744Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:32:13.745Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:08:22.861Z"
+  },
+  "__v": 0,
+  "membershipFeeSituationId": "658eb733872753c2bee6b097"
+},
+{
+  "_id": {
+    "$oid": "658eae43872753c2bede9696"
+  },
+  "membershipNumber": 2,
+  "type": "ORDI",
+  "period": "ANUA",
+  "effectDate": {
+    "$date": "2021-01-02T00:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2022-01-02T00:00:00.000Z"
+  },
+  "membership": 15,
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "auditUser": "administrador@gmail.com",
+  "auditDate": {
+    "$date": "2023-12-29T11:32:19.984Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:32:19.984Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:08:40.174Z"
+  },
+  "__v": 0,
+  "membershipFeeSituationId": "658eb738872753c2bee6bde4"
+},
+{
+  "_id": {
+    "$oid": "658eae48872753c2bede969d"
+  },
+  "membershipNumber": 3,
+  "type": "ORDI",
+  "period": "ANUA",
+  "effectDate": {
+    "$date": "2022-01-02T00:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2023-01-02T00:00:00.000Z"
+  },
+  "membership": 15,
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "auditUser": "administrador@gmail.com",
+  "auditDate": {
+    "$date": "2023-12-29T11:32:24.508Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:32:24.509Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:08:58.952Z"
+  },
+  "__v": 0,
+  "membershipFeeSituationId": "658eb73d872753c2bee6cc08"
+},
+{
+  "_id": {
+    "$oid": "658eae4e872753c2bede96a4"
+  },
+  "membershipNumber": 4,
+  "type": "ORDI",
+  "period": "ANUA",
+  "effectDate": {
+    "$date": "2023-01-02T00:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2024-01-02T00:00:00.000Z"
+  },
+  "membership": 15,
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "auditUser": "administrador@gmail.com",
+  "auditDate": {
+    "$date": "2023-12-29T11:32:30.238Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:32:30.238Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T12:09:12.974Z"
+  },
+  "__v": 0,
+  "membershipFeeSituationId": "658eb6e8872753c2bee5eca9"
+},
+{
+  "_id": {
+    "$oid": "658eae52872753c2bede96ab"
+  },
+  "membershipNumber": 5,
+  "type": "ORDI",
+  "period": "ANUA",
+  "effectDate": {
+    "$date": "2024-01-02T00:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-01-02T00:00:00.000Z"
+  },
+  "membership": 15,
+  "associationCode": "asoc-estudiantes-unir",
+  "partnerId": "658eac2b872753c2bede9623",
+  "auditUser": "administrador@gmail.com",
+  "auditDate": {
+    "$date": "2023-12-29T11:32:34.663Z"
+  },
+  "createdAt": {
+    "$date": "2023-12-29T11:32:34.663Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T11:34:54.596Z"
+  },
+  "__v": 0,
+  "membershipFeeSituationId": "658eaede872753c2bede96d2"
+}]
