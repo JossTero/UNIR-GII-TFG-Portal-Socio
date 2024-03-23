@@ -1,7 +1,7 @@
 # UNIR-GII-TFG-Portal-Socio
 ![Cabecera Portal socio](https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio/blob/main/additional/img/header/JAOM_UNIR_GII_TFG_Cebecera_portal_Horizontal.PNG)
  
-Desarrollo MERN Stark que implementa un **Portal web para la interacción del socio con la asociación de la que es miembro**.
+Desarrollo MERN Stack que implementa un **Portal web para la interacción del socio con la asociación de la que es miembro**.
 
 ![Escudo](https://img.shields.io/badge/status-in%20Development-red) ![Escudo](https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5) <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">![Escudo](https://img.shields.io/badge/license-in%20CC%20BY--NC--SA%204.0-yellow)</a>
 
