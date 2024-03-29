@@ -5,10 +5,18 @@ import SelectList from '../form/SelectList';
 
 function ActivitySection({ className }) {
   const { memberships, getMembershipFees } = usePartner();
+  const [refreshMemberships, setRefreshMemberships] = useState(false);
+  
+  useEffect(() => {
+    getMembershipFees();  
+  }, []);
 
   useEffect(() => {
-    getMembershipFees();
-  }, [memberships]);
+    if(refreshMemberships){
+      getMembershipFees();
+      setRefreshMemberships(false);
+    }    
+  }, [refreshMemberships]);
 
   const [page, setPage] = useState(1);
   const [show, setShow] = useState(4);
@@ -104,11 +112,11 @@ function ActivitySection({ className }) {
                   index + 1 > previous &&
                   index + 1 <= current
                 ) {
-                  return <SingleOrder membership={membership} key={index} />;
+                  return <SingleOrder membership={membership} key={index} setRefreshMemberships={setRefreshMemberships} />;
                 } else if (page == 1) {
                   return (
                     index < page * show && (
-                      <SingleOrder membership={membership} key={index} />
+                      <SingleOrder membership={membership} key={index} setRefreshMemberships={setRefreshMemberships} />
                     )
                   );
                 }

@@ -11,7 +11,7 @@ function Documents() {
 
   useEffect(() => {
     getDocuments();
-  }, [documents]);
+  }, []);
 
   const [page, setPage] = useState(1);
   const [show, setShow] = useState(4);

@@ -5,23 +5,41 @@ import { usePartner } from '../../context/partnerContext';
 import AddNewDocument from '../to-dolist/AddNewDocument';
 import { MEMBERSHIPFEE_CONSTANTS } from '../../config/constants';
 
-function SingleOrder({ membership }) {
+function SingleOrder({ membership, setRefreshMemberships }) {
   const location = useLocation();
   const [addProofOfPayment, setAddProofOfPayment] = useState(false);
   const { getMembershipFeeSituation, addDocumentMembershipFee } = usePartner();
   const [situation, setSituation] = useState(null);
+  const [sendDocument, setSendDocument] = useState(false);
 
   const refreshMembershipFeeSituation = async () => {
+    console.log("refreshMembershipFeeSituation membership?._id", membership?._id);
+    console.log("refreshMembershipFeeSituation membership?.membershipFeeSituationId", membership?.membershipFeeSituationId);
     const situationRequest = await getMembershipFeeSituation(
       membership?._id,
       membership?.membershipFeeSituationId
     );
+    console.log("refreshMembershipFeeSituation situationRequest", situationRequest);
     setSituation(situationRequest);
   };
 
   useEffect(() => {
+    console.log("USE EFFECT SINGLEORDER");
     refreshMembershipFeeSituation();
-  }, [situation]);
+  }, []);
+
+  useEffect(() => {
+    console.log("USE EFFECT SINGLEORDER membership ---", membership);
+    refreshMembershipFeeSituation();
+  }, [membership]);
+
+  useEffect(() => {
+    if(sendDocument){
+      console.log("USE EFFECT SINGLEORDER membership", membership);
+      setRefreshMemberships(true);      
+      setSendDocument(false);
+    }
+  }, [sendDocument]);
 
   const sendDocumentMembershipFee = async (formData) => {
     formData.append('status', situation?.status);
@@ -31,6 +49,7 @@ function SingleOrder({ membership }) {
     );
     formData.append('paymentMethod', situation?.paymentMethod);
     await addDocumentMembershipFee(membership?._id, formData);
+    setSendDocument(true);
     return closeModalDocumentMembershipFee(false);
   };
 

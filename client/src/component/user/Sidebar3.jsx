@@ -26,16 +26,16 @@ function Sidebar3() {
 
   useState(() => {
     getAssociation();
-  }, [getAssociation]);
+  }, []);
 
   useState(() => {
     getDocumentsAssociation();
-  }, [getDocumentsAssociation]);
+  }, []);
 
   useState(async () => {
     const partners = await getPartnersAssociation();
     setNumberPartners(partners.length);
-  }, [setNumberPartners, getPartnersAssociation]);
+  }, []);
 
   return (
     <div className="col-lg-3 col-12">
