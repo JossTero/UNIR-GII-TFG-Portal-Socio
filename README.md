@@ -1,7 +1,7 @@
 # UNIR-GII-TFG-Portal-Socio
 ![Cabecera Portal socio](https://github.com/JossTero/UNIR-GII-TFG-Portal-Socio/blob/main/additional/img/header/JAOM_UNIR_GII_TFG_Cebecera_portal_Horizontal.PNG)
  
-Desarrollo MERN Stark que implementa un **Portal web para la interacción del socio con la asociación de la que es miembro**.
+Desarrollo MERN Stack que implementa un **Portal web para la interacción del socio con la asociación de la que es miembro**.
 
 ![Escudo](https://img.shields.io/badge/status-in%20Development-red) ![Escudo](https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5) <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">![Escudo](https://img.shields.io/badge/license-in%20CC%20BY--NC--SA%204.0-yellow)</a>
 
@@ -36,7 +36,7 @@ Con un software de gestión de BBDD MongoDB como:
 
 1. Crear nueva conexión: *mongodb://localhost:27017*
 2. Crear la base de datos: *associations*
-3. Crear e importar los datos JSON de cada una de las colecciones (Ficheros en la carpeta "***additional\bbdd\collections***"):
+3. Crear e importar los datos JSON de cada una de las colecciones (Ficheros en la carpeta "***.\additional\bbdd\collections***"):
     - 3.1. Asociaciones -> *associations*: associations.associations.json
     - 3.2. Junta directiva -> *boardofdirectors*: associations.boardofdirectors.json
     - 3.3. Directivos -> *executives*: associations.executives.json
@@ -53,6 +53,11 @@ Con un software de gestión de BBDD MongoDB como:
     - .14. Secuencias de la BBDD -> *sequences*: associations.sequences.json
 
 ### Uso del lado del cliente (PUERTO: 5173 aunque al arrancar indica el puerto en consola)
+Para implementar la parte frontal de la aplicación, se ha utilizado una plantilla de administración en React como base del portal web que ha permitido acelerar el desarrollo. Una parte reducida de la plantilla se ha adaptado a las necesidades concretas del negocio de las asociaciones. Página web de la plantilla: https://themeforest.net/
+
+Plantilla "**Dashra - React Admin Template**" bajo "*Regular license*": https://themeforest.net/item/dashra-react-admin-template/48837630
+- ***Texto que explica la "*Regular license*"***: Uso, por parte suya o de un cliente, en un único producto final por el que no se cobra a los usuarios finales. El precio total incluye el precio del artículo y una tarifa del comprador.
+
 ```terminal
 $ cd .\client\       // Para ir a la carpeta del cliente
 $ npm install        // Para instalar las dependencias del cliente
