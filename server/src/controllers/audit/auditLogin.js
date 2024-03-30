@@ -39,8 +39,8 @@ const auditLogin = async (req, res) => {
       .then((auditLoginStored) => {
         return auditLoginStored;
       })
-      .catch((err) => {
-        console.log(err);
+      .catch((error) => {
+        console.log(error);
         return null;
       });
   }

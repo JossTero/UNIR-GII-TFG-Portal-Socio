@@ -19,8 +19,8 @@ const auditStart = async (serverAddress, webAddress, serverPort) => {
     .then((auditStartStored) => {
       return auditStartStored;
     })
-    .catch((err) => {
-      console.log(err);
+    .catch((error) => {
+      console.log(error);
       return null;
     });
   return auditStartStored;

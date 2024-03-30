@@ -42,8 +42,8 @@ const auditRequestInput = async (req, res, next) => {
       .then((auditRequestStored) => {
         return auditRequestStored;
       })
-      .catch((err) => {
-        console.log(err);
+      .catch((error) => {
+        console.log(error);
         return null;
       });
   }

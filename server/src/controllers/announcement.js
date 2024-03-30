@@ -107,7 +107,6 @@ const update = async (req, res, next) => {
 const updateImage = async (req, res, next) => {
   const associationCode = req.params.associationCode;
   const announcementId = req.params.announcementId;
-  console.log("announcementId: ", announcementId);
   try {
     req.body._id = announcementId;
     if (req.user) {
