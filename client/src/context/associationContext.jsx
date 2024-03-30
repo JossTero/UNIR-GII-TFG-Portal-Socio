@@ -87,7 +87,6 @@ export const AssociationProvider = ({ children }) => {
   const getPartnerAssociation = async (id) => {
     try {
       const res = await getPartnerAssociationRequestFromUser(user, id);
-      console.log()
       return res.partner;
     } catch (error) {
       console.log(error);

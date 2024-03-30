@@ -13,30 +13,24 @@ function SingleOrder({ membership, setRefreshMemberships }) {
   const [sendDocument, setSendDocument] = useState(false);
 
   const refreshMembershipFeeSituation = async () => {
-    console.log("refreshMembershipFeeSituation membership?._id", membership?._id);
-    console.log("refreshMembershipFeeSituation membership?.membershipFeeSituationId", membership?.membershipFeeSituationId);
     const situationRequest = await getMembershipFeeSituation(
       membership?._id,
       membership?.membershipFeeSituationId
     );
-    console.log("refreshMembershipFeeSituation situationRequest", situationRequest);
     setSituation(situationRequest);
   };
 
   useEffect(() => {
-    console.log("USE EFFECT SINGLEORDER");
     refreshMembershipFeeSituation();
   }, []);
 
   useEffect(() => {
-    console.log("USE EFFECT SINGLEORDER membership ---", membership);
     refreshMembershipFeeSituation();
   }, [membership]);
 
   useEffect(() => {
-    if(sendDocument){
-      console.log("USE EFFECT SINGLEORDER membership", membership);
-      setRefreshMemberships(true);      
+    if (sendDocument) {
+      setRefreshMemberships(true);
       setSendDocument(false);
     }
   }, [sendDocument]);
@@ -190,7 +184,7 @@ function SingleOrder({ membership, setRefreshMemberships }) {
               </a>
             </div>
           ) : (
-            <p>Sin acciones</p>            
+            <p>Sin acciones</p>
           )}
         </td>
       </tr>

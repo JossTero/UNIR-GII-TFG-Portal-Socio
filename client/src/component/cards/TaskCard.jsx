@@ -8,14 +8,27 @@ import {
 } from '../../helpers/util';
 import fileIcon from '../../assets/img/file-icon.svg';
 import downloadIcon from '../../assets/img/download-icon.svg';
+import CircularProgress from '@mui/material/CircularProgress';
+import Box from '@mui/material/Box';
 
 function TaskCard({ announcement }) {
   const { getDocumentsAnnouncement } = usePartner();
   const [documentsAnnouncement, setDocumentsAnnouncement] = useState([]);
+  const [loadDocuments, setLoadDocument] = useState(false);
 
-  useState(async () => {
-    setDocumentsAnnouncement(await getDocumentsAnnouncement(announcement?._id));
-  }, [documentsAnnouncement]);
+  const loadDocumentsAnnouncement = async () => {
+    const documentsRequuest = await getDocumentsAnnouncement(announcement?._id);
+    setDocumentsAnnouncement(documentsRequuest);
+    setLoadDocument(true);
+  };
+
+  useState(() => {
+    loadDocumentsAnnouncement();
+  }, []);
+
+  useEffect(() => {
+    loadDocumentsAnnouncement();
+  }, [announcement]);
 
   return (
     <div className="col-xxl-6 col-lg-12 col-md-12 col-12">
@@ -87,33 +100,44 @@ function TaskCard({ announcement }) {
         <p className="crancy-tasksingle__text">
           <b>Autor:</b> {announcement?.author}
         </p>
-        {documentsAnnouncement.length > 0 && (
-          <div className="crancy-featured-user__files crancy-featured-user__border">
-            <h4 className="crancy-featured-user__title--small">Ficheros</h4>
-            {documentsAnnouncement?.map((documentAnnouncement) => (
-              <a
-                href={getUrlDownloadDocument(documentAnnouncement)}
-                download={documentAnnouncement?.fileName + documentAnnouncement?.extension}
-                key={documentAnnouncement?._id}
-              >
-                <div className="crancy-featured-user__fcontent">
-                  <span className="crancy-featured-user__ficon">
-                    <img src={fileIcon} />
-                  </span>
-                  <h4 className="crancy-featured-user__fname">
-                    {documentAnnouncement?.fileName}
-                    {documentAnnouncement?.extension}
-                    <span className="crancy-featured-user__fsize">
-                      {getLiteralSizeDocument(documentAnnouncement)}
-                    </span>
-                  </h4>
-                </div>
-                <div className="crancy-featured-user__fdownload">
-                  <img src={downloadIcon} />
-                </div>
-              </a>
-            ))}
-          </div>
+        {!loadDocuments ? (
+          <Box sx={{ display: 'flex' }}>
+            <CircularProgress />
+          </Box>
+        ) : (
+          <>
+            {documentsAnnouncement.length > 0 && (
+              <div className="crancy-featured-user__files crancy-featured-user__border">
+                <h4 className="crancy-featured-user__title--small">Ficheros</h4>
+                {documentsAnnouncement?.map((documentAnnouncement) => (
+                  <a
+                    href={getUrlDownloadDocument(documentAnnouncement)}
+                    download={
+                      documentAnnouncement?.fileName +
+                      documentAnnouncement?.extension
+                    }
+                    key={documentAnnouncement?._id}
+                  >
+                    <div className="crancy-featured-user__fcontent">
+                      <span className="crancy-featured-user__ficon">
+                        <img src={fileIcon} />
+                      </span>
+                      <h4 className="crancy-featured-user__fname">
+                        {documentAnnouncement?.fileName}
+                        {documentAnnouncement?.extension}
+                        <span className="crancy-featured-user__fsize">
+                          {getLiteralSizeDocument(documentAnnouncement)}
+                        </span>
+                      </h4>
+                    </div>
+                    <div className="crancy-featured-user__fdownload">
+                      <img src={downloadIcon} />
+                    </div>
+                  </a>
+                ))}
+              </div>
+            )}
+          </>
         )}
         {announcement?.image && (
           <div className="crancy-tasksingle__group">
