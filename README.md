@@ -78,7 +78,7 @@ chart.js: ^4.4.0 | bcryptjs: ^2.4.3
 js-cookie: ^3.0.5 | body-parser: ^1.20.2
 jsvectormap: ^1.5.3 | cookie-parser: ^1.4.6,
 node-fetch: ^3.3.2 | cors: ^2.8.5
-node-fetch: ^3.3.2 | express: ^4.18.2
+react: ^18.2.0 | express: ^4.18.2
 react-chartjs-2: ^5.2.0 | jsonwebtoken: ^9.0.2
 react-circular-progressbar: ^2.1.0 | mongoose: ^7.5.2
 react-daypicker: ^3.0.10 | multer: ^1.4.5-lts.1
