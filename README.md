@@ -37,20 +37,62 @@ Con un software de gestión de BBDD MongoDB como:
 1. Crear nueva conexión: *mongodb://localhost:27017*
 2. Crear la base de datos: *associations*
 3. Crear e importar los datos JSON de cada una de las colecciones (Ficheros en la carpeta "***.\additional\bbdd\collections***"):
-    - 3.1. Asociaciones -> *associations*: associations.associations.json
-    - 3.2. Junta directiva -> *boardofdirectors*: associations.boardofdirectors.json
-    - 3.3. Directivos -> *executives*: associations.executives.json
-    - 3.4. Socios -> *partners*: associations.partners.json
-    - 3.5. Cuotas -> *membershipfees*: associations.membershipfees.json
-    - 3.6. Situaciones de cuotas -> *membershipfeesituations*: associations.membershipfeesituations.json
-    - 3.7. Noticias -> *announcements*: associations.announcements.json
-    - 3.8. Documentos -> *documents*: associations.documents.json
-    - 3.9. Imágenes -> *images*: associations.images.json
-    - 3.10. Usuarios -> *users*: associations.users.json
-    - 3.11. Audotoría de arranque del servidor -> *auditstarts*: associations.auditstarts.json
-    - 3.12. Audotoría de login de usuario -> *auditlogins*: associations.auditlogins.json
-    - 3.13. Auditoría de petición al servidor -> *auditrequests*: associations.auditrequests.json
-    - .14. Secuencias de la BBDD -> *sequences*: associations.sequences.json
+    - 3.1.  Asociaciones                        -> *associations*: associations.associations.json
+    - 3.2.  Junta directiva                     -> *boardofdirectors*: associations.boardofdirectors.json
+    - 3.3.  Directivos                          -> *executives*: associations.executives.json
+    - 3.4.  Socios                              -> *partners*: associations.partners.json
+    - 3.5.  Cuotas                              -> *membershipfees*: associations.membershipfees.json
+    - 3.6.  Situaciones de cuotas               -> *membershipfeesituations*: associations.membershipfeesituations.json
+    - 3.7.  Noticias                            -> *announcements*: associations.announcements.json
+    - 3.8.  Documentos                          -> *documents*: associations.documents.json
+    - 3.9.  Imágenes                            -> *images*: associations.images.json
+    - 3.10. Usuarios                            -> *users*: associations.users.json
+    - 3.11. Audotoría de arranque del servidor  -> *auditstarts*: associations.auditstarts.json
+    - 3.12. Audotoría de login de usuario       -> *auditlogins*: associations.auditlogins.json
+    - 3.13. Auditoría de petición al servidor   -> *auditrequests*: associations.auditrequests.json
+    - 3.14. Secuencias de la BBDD               -> *sequences*: associations.sequences.json
+
+### Uso de los endpoints a través de postman
+Con un software de peticiones a endpoints como:
+- [Postman](https://www.postman.com/downloads/)
+
+1. Instalar el software
+2. Ir a "***Collections***"
+3. Importar los datos en formato JSON de endpoinds (Ficheros en la carpeta "***.\additional\endpoints\postman***"):
+    - 3.1.  POST:    http://localhost:5000/api/1/login
+    - 3.2.  DELETE:  http://localhost:5000/api/1/logout
+    - 3.3.  POST:    http://localhost:5000/api/1/usuarios/
+    - 3.4.  GET:     http://localhost:5000/api/1/usuarios/:id
+    - 3.5.  PUT:     http://localhost:5000/api/1/usuarios/:id
+    - 3.6.  DELETE:  http://localhost:5000/api/1/usuarios/:id
+    - 3.7.  GET:     http://localhost:5000/api/1/usuarios/
+    - 3.8.  POST:    http://localhost:5000/api/1/admin/login
+    - 3.9.  DELETE:  http://localhost:5000/api/1/admin/logout
+    - 3.10. POST:    http://localhost:5000/api/1/asociaciones/
+    - 3.11. GET:     http://localhost:5000/api/1/asociaciones/:code
+    - 3.12. PUT:     http://localhost:5000/api/1/asociaciones/:code
+    - 3.13. PUT:     http://localhost:5000/api/1/asociaciones/:code/logo
+    - 3.14. DELETE:  http://localhost:5000/api/1/asociaciones/:code
+    - 3.15. GET:     http://localhost:5000/api/1/asociaciones/
+    - 3.16. GET:     http://localhost:5000/api/1/asociaciones-simple/
+    - 3.17. POST:    http://localhost:5000/api/1/:code/socios/
+    - 3.18. PUT:     http://localhost:5000/api/1/:code/socios/:idImagen/imagen
+    - 3.19. POST:    http://localhost:5000/api/1/:code/socios/:idSocio/documentos/
+    - 3.20. POST:    http://localhost:5000/api/1/:code/socios/:idSocio/cuotas/
+    - 3.21. POST:    http://localhost:5000/api/1/:code/socios/:idSocio/cuotas/:idCuota/situaciones/
+    - 3.22. POST:    http://localhost:5000/api/1/:code/directiva/
+    - 3.23. POST:    http://localhost:5000/api/1/:code/directiva/:idDirectiva/directivos/
+    - 3.24. POST:    http://localhost:5000/api/1/:code/anuncios/
+    - 3.25. POST:    http://localhost:5000/api/1/:code/anuncios/:idAnuncio/documentos/
+    - 3.26. PUT:     http://localhost:5000/api/1/:code/anuncios/:idAnuncio/imagen
+    - 3.27. POST:    http://localhost:5000/api/1/:code/documentos/
+    - 3.28. PUT:     http://localhost:5000/api/1/:code/documentos/:idDocumento/documento
+
+- Estos son algunos de los endpoints facilitados, que se ayudan a cargar información en el sistema para simular el punto de vista de la asociación y del administrador de la asociación. No obstante, cada objeto del modelo de datos dispone de funciones CRUD para su utilización a través de endpoints.
+- El puerto depende de como se haya configurado el servidor, en este proyecto el puerto por defecto ha sido el 5000.
+- El pathParam ":code" es el código de la asociación defindo en la colección *associations* del modelo de datos. En este ejemplo es "*asoc-estudiantes-unir*".
+- El resto de pathParams son identificadores de los objetos a los que se quiere acceder, dependerá del objeto.
+
 
 ### Uso del lado del cliente (PUERTO: 5173 aunque al arrancar indica el puerto en consola)
 Para implementar la parte frontal de la aplicación, se ha utilizado una plantilla de administración en React como base del portal web que ha permitido acelerar el desarrollo. Una parte reducida de la plantilla se ha adaptado a las necesidades concretas del negocio de las asociaciones. Página web de la plantilla: https://themeforest.net/

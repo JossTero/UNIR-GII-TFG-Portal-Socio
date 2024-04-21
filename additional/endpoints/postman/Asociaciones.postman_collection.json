@@ -1,0 +1,1091 @@
+{
+	"info": {
+		"_postman_id": "9eaa25d2-c473-41b8-a391-07be8328b02a",
+		"name": "Asociaciones",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29785585"
+	},
+	"item": [
+		{
+			"name": "/api/1/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/logout",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/usuarios/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\",\r\n  \"email\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"name\": \"José Enrique\",\r\n  \"surname\": \"Ayala\",\r\n  \"secondSurname\": \"Olmo\",\r\n  \"userType\": \"PARTNER\",\r\n  \"userStatus\": \"ACTI\",\r\n  \"associationCode\": \"asoc-estudiantes-unir\",\r\n  \"auditUser\": \"administrador\",\r\n  \"partnerId\": \"658eac2b872753c2bede9623\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/usuarios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"usuarios",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/usuarios/:id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"type\": \"master\",\r\n  \"status\": \"acti\",\r\n  \"associationCode\": \"\",\r\n  \"auditUser\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/usuarios/6550ef3f29e4442a10cba96f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"usuarios",
+						"6550ef3f29e4442a10cba96f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/usuarios/:id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"prueba1@gmail.com\",\r\n  \"email\": \"prueba1@gmail.com\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"registrationDate\": \"2023-09-27T21:11:35.119Z\",\r\n  \"userType\": \"master\",\r\n  \"userStatus\": \"ACTI\",\r\n  \"auditUser\": \"administrador\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/usuarios/65174932661800134199edfb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"usuarios",
+						"65174932661800134199edfb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/usuarios/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"type\": \"master\",\r\n  \"status\": \"acti\",\r\n  \"associationCode\": \"\",\r\n  \"auditUser\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/usuarios/651748f187cfc8ce427ad3eb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"usuarios",
+						"651748f187cfc8ce427ad3eb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/usuarios/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"type\": \"master\",\r\n  \"status\": \"acti\",\r\n  \"associationCode\": \"\",\r\n  \"auditUser\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/usuarios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"usuarios",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/admin/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"administrador@gmail.com\",\r\n  \"password\": \"prueba123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/admin/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"admin",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/admin/logout",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/admin/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"admin",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"typeAssociation\": \"01\",\r\n  \"code\": \"asoc-estudiantes-unir\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"Q4249446H\",\r\n  \"businessName\": \"Asociación de estudiantes de la UNIR\",\r\n  \"phone\": \"+34 916 585 391\",\r\n  \"constitutionDate\": \"01/02/2020\",\r\n  \"addressTypeOfRoad\": \"Avenida\",\r\n  \"addressStreet\": \"De la paz\",\r\n  \"addressNumber\": \"145\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Logroño\",\r\n  \"addressProvince\": \"La Rioja\",\r\n  \"addressPostalCode\": \"26006\",\r\n  \"addressComplement\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones/:code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-profesores-unir",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones",
+						"asoc-profesores-unir"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones/:code",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"_id\": \"65148b0ee17f92a043f0974b\",\r\n  \"type\": \"01\",\r\n  \"code\": \"asoc-muriasdesanabria\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"R7240313B\",\r\n  \"businessName\": \"Asociación cultural de Murias de Sanabria\",\r\n  \"constitutionDate\": \"01/02/2021\",\r\n  \"phone\": \"654477777\",\r\n  \"addressTypeOfRoad\": \"CALL\",\r\n  \"addressStreet\": \"Falsa\",\r\n  \"addressNumber\": \"123\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Madrid\",\r\n  \"addressProvince\": \"Madrid\",\r\n  \"addressPostalCode\": \"28005\",\r\n  \"addressComplement\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-muriasdesanabria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones",
+						"asoc-muriasdesanabria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones/:code/logo",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "logo",
+							"type": "file",
+							"src": "/C:/Users/Otero/Downloads/UNIR - Asociación alumnos - Socios/Logo/UNIR - Asociación de alumnos - Logo 1 - Reducido.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-estudiantes-unir/logo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones",
+						"asoc-estudiantes-unir",
+						"logo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones/:code",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-muriasdesanabria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones",
+						"asoc-muriasdesanabria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"01\",\r\n  \"code\": \"asoc-muriasdesanabria8\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"R7240313B\",\r\n  \"businessName\": \"Asociación cultural de Murias de Sanabria\",\r\n  \"constitutionDate\": \"01/02/2021\",\r\n  \"phone\": \"654473124\",\r\n  \"addressTypeOfRoad\": \"CALL\",\r\n  \"addressStreet\": \"Falsa\",\r\n  \"addressNumber\": \"123\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Madrid\",\r\n  \"addressProvince\": \"Madrid\",\r\n  \"addressPostalCode\": \"28005\",\r\n  \"addressComplement\": \"\",\r\n  \"auditUser\": \"JossTero\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asociaciones-simple/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"01\",\r\n  \"code\": \"asoc-muriasdesanabria8\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"R7240313B\",\r\n  \"businessName\": \"Asociación cultural de Murias de Sanabria\",\r\n  \"constitutionDate\": \"01/02/2021\",\r\n  \"phone\": \"654473124\",\r\n  \"addressTypeOfRoad\": \"CALL\",\r\n  \"addressStreet\": \"Falsa\",\r\n  \"addressNumber\": \"123\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Madrid\",\r\n  \"addressProvince\": \"Madrid\",\r\n  \"addressPostalCode\": \"28005\",\r\n  \"addressComplement\": \"\",\r\n  \"auditUser\": \"JossTero\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asociaciones-simple/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asociaciones-simple",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/socios/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"typePartner\": \"NUME\",\r\n  \"name\": \"Soraya\",\r\n  \"surname\": \"Cárdenas\",\r\n  \"secondSurname\": \"Lucas\",\r\n  \"documentType\": \"NIF\",\r\n  \"documentNumber\": \"99251978D\",\r\n  \"birthdate\": \"01/01/1990\",\r\n  \"phone\": \"625321010\",\r\n  \"email\": \"soraya.cardenas@estudiantes-unir.es\",\r\n  \"addressTypeOfRoad\": \"Calle\",\r\n  \"addressStreet\": \"Hilados\",\r\n  \"addressNumber\": \"14\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Torrejón del Rey\",\r\n  \"addressProvince\": \"Guadalajara\",\r\n  \"addressPostalCode\": \"19897\",\r\n  \"addressComplement\": \"\",\r\n  \"statusPartner\": \"ACTI\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/socios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"socios",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/socios/:id/imagen",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Otero/Downloads/UNIR - Asociación alumnos - Socios/Socios/170px/Socio - Soraya Cárdenas Lucas.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/socios/658ead48872753c2bede9641/imagen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"socios",
+						"658ead48872753c2bede9641",
+						"imagen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/socios/:idSocio/documentos/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"module\": \"partners\",\r\n  \"title\": \"Documento de registro de socio\",\r\n  \"description\": \"Documento PDF de registro de socio\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/socios/658eac2b872753c2bede9623/documentos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"socios",
+						"658eac2b872753c2bede9623",
+						"documentos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/socios/:idSocio/cuotas/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"effectDate\": \"2024-01-02T00:00:00.000Z\",\r\n  \"dueDate\": \"2025-01-02T00:00:00.000Z\",\r\n  \"membership\": 15.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/socios/658eac2b872753c2bede9623/cuotas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"socios",
+						"658eac2b872753c2bede9623",
+						"cuotas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/socios/:idSocio/cuotas/:idCuota/situaciones/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"statusSituation\": \"CODE\",\r\n  \"reason\": \"COBR\",\r\n  \"paymentMethod\": \"EFEC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/socios/658eae3d872753c2bede968f/cuotas/658eae48872753c2bede969d/situaciones/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"socios",
+						"658eae3d872753c2bede968f",
+						"cuotas",
+						"658eae48872753c2bede969d",
+						"situaciones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/directiva/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"statusBoardOfDirector\": \"ACTI\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/directiva/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"directiva",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/directiva/:idDirectiva/directivos/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"position\": \"VOCA\",\r\n  \"partnerId\": \"658eaa02872753c2bede9607\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/directiva/658de30bff6c6ee5ea967053/directivos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"directiva",
+						"658de30bff6c6ee5ea967053",
+						"directivos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/anuncios/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"typeAnnouncement\": \"ASEX\",\r\n  \"finishDate\": \"\",\r\n  \"title\": \"Convocatoria de asamblea extaordinaria para el día 22 de diciembre de 2023\",\r\n  \"text\": \"Aviso de asamblea extraordinaria para el viernes 22 de diciembre de 2023 a las 19:00 horas en la sede de la asociación.\",\r\n  \"image\": \"\",\r\n  \"author\": \"Presidente de la asociación\",\r\n  \"importanceLevel\": \"ALTA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/anuncios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"anuncios",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/anucios/:idAnuncio/documentos/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"module\": \"announcements\",  \r\n  \"title\": \"Convocatoria asamblea extraordinaria 20231222\",\r\n  \"description\": \"Documento PDF con la información de la convocatoria de la asamblea extraordinaria del día 22 de diciembre de 2023.\",\r\n  \"announcementId\": \"658eb22a872753c2bee0ddb7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/anuncios/658e045189291d4ff02dae88/documentos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"anuncios",
+						"658e045189291d4ff02dae88",
+						"documentos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/anuncios/:idAnuncio/imagen/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Otero/Downloads/UNIR - Asociación - Socios/Documentos/UNIR - Profesores - Imagen de salida gastronómica  de 2020517.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/anuncios/658dec91e80236d7836a5b2b/imagen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"anuncios",
+						"658dec91e80236d7836a5b2b",
+						"imagen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/documentos/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"module\": \"associations\",\r\n  \"title\": \"Estatutos de la asociación\",\r\n  \"description\": \"Este documento PDF contiene los estatutos de la asociación.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/documentos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"documentos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/1/asoc-estudiantes-unir/documentos/:id/documento",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Otero/Downloads/UNIR - Asociación alumnos - Socios/Documentos/UNIR - Alumnos - Acta junta ordinaria 20230314.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/asoc-estudiantes-unir/documentos/658eb544872753c2bee33c34/documento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"asoc-estudiantes-unir",
+						"documentos",
+						"658eb544872753c2bee33c34",
+						"documento"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
