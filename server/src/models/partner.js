@@ -4,7 +4,7 @@ const { DDBB_CONSTANTS } = require("../constants");
 
 const partnerScheme = new Schema(
   {
-    type: {
+    typePartner: {
       type: String,
       required: true,
       trim: true,
@@ -106,7 +106,7 @@ const partnerScheme = new Schema(
       type: String,
       trim: true,
     },
-    status: {
+    statusPartner: {
       type: String,
       required: true,
       trim: true,

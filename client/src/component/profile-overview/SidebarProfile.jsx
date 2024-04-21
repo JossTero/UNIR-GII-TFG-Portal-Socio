@@ -50,10 +50,10 @@ function SidebarProfile() {
             <b>Estado :</b>{' '}
             <span
               className={`crancy-table__status ${
-                partner?.status === 'INAC' ? 'crancy-table__status--cancel' : ''
+                partner?.statusPartner === 'INAC' ? 'crancy-table__status--cancel' : ''
               }`}
             >
-              {partner?.status === 'ACTI'
+              {partner?.statusPartner === 'ACTI'
                 ? 'Activo'
                 : partner?.reason === 'INAC'
                 ? 'Inactivo'

@@ -3,7 +3,7 @@
     "$oid": "658eae3d872753c2bede968f"
   },
   "membershipNumber": 1,
-  "type": "ORDI",
+  "typeMembership": "ORDI",
   "period": "ANUA",
   "effectDate": {
     "$date": "2020-01-02T00:00:00.000Z"
@@ -32,7 +32,7 @@
     "$oid": "658eae43872753c2bede9696"
   },
   "membershipNumber": 2,
-  "type": "ORDI",
+  "typeMembership": "ORDI",
   "period": "ANUA",
   "effectDate": {
     "$date": "2021-01-02T00:00:00.000Z"
@@ -61,7 +61,7 @@
     "$oid": "658eae48872753c2bede969d"
   },
   "membershipNumber": 3,
-  "type": "ORDI",
+  "typeMembership": "ORDI",
   "period": "ANUA",
   "effectDate": {
     "$date": "2022-01-02T00:00:00.000Z"
@@ -90,7 +90,7 @@
     "$oid": "658eae4e872753c2bede96a4"
   },
   "membershipNumber": 4,
-  "type": "ORDI",
+  "typeMembership": "ORDI",
   "period": "ANUA",
   "effectDate": {
     "$date": "2023-01-02T00:00:00.000Z"
@@ -119,7 +119,7 @@
     "$oid": "658eae52872753c2bede96ab"
   },
   "membershipNumber": 5,
-  "type": "ORDI",
+  "typeMembership": "ORDI",
   "period": "ANUA",
   "effectDate": {
     "$date": "2024-01-02T00:00:00.000Z"

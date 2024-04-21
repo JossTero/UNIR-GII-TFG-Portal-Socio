@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "658eb207872753c2bee0b4bc"
   },
-  "type": "NOTI",
+  "typeAnnouncement": "NOTI",
   "finishDate": null,
   "title": "Acta de la asamblea del día 14 de marzo de 2023",
   "text": "Buenas tardes, adjunto el acta de la asamblea del día 14 de marzo de 2023. Muchas gracias a todos.",
@@ -29,7 +29,7 @@
   "_id": {
     "$oid": "658eb216872753c2bee0c570"
   },
-  "type": "EVEN",
+  "typeAnnouncement": "EVEN",
   "finishDate": null,
   "title": "Evento gastronómico durante el 20 de mayo de 2023",
   "text": "Información del evento gastronómico que se va a realizar el sábado 20 de mayo de 2023 en la ciudad de logrono: Almuerzo, comida y merienda. Más información en la documentación adjunta.",
@@ -56,7 +56,7 @@
   "_id": {
     "$oid": "658eb21b872753c2bee0cb61"
   },
-  "type": "NOTI",
+  "typeAnnouncement": "NOTI",
   "finishDate": null,
   "title": "Sorteo de cesta de navidad 2023",
   "text": "En la sede de la asociación se pueden adquirir papeletas de la cesta de navidad por valor de 3€ y el ganador es el que coincida los 3 últimos números del número premiado con los 4.000.000,00€ de la lotería (El gordo de la navidad) del año 2023.",
@@ -83,7 +83,7 @@
   "_id": {
     "$oid": "658eb220872753c2bee0d15b"
   },
-  "type": "NOTI",
+  "typeAnnouncement": "NOTI",
   "finishDate": null,
   "title": "Venta de décimos de lotería para el sorteo de navidad 2023",
   "text": "En la sede de la asociación se pondrá comprar el número 88.008 con un recardo de 2€ para el sorteo de navidad de 2023.",
@@ -110,7 +110,7 @@
   "_id": {
     "$oid": "658eb225872753c2bee0d74d"
   },
-  "type": "ASOR",
+  "typeAnnouncement": "ASOR",
   "finishDate": null,
   "title": "Convocatoria de asamblea ordinaria para el día 19 de septiembre de 2023",
   "text": "Aviso de asamblea ordinaria para el martes 19 de septiembre de 2023 a las 19:00 horas en la sede de la asociación.",
@@ -137,7 +137,7 @@
   "_id": {
     "$oid": "658eb22a872753c2bee0ddb7"
   },
-  "type": "ASEX",
+  "typeAnnouncement": "ASEX",
   "finishDate": null,
   "title": "Convocatoria de asamblea extaordinaria para el día 22 de diciembre de 2023",
   "text": "Aviso de asamblea extraordinaria para el viernes 22 de diciembre de 2023 a las 19:00 horas en la sede de la asociación.",

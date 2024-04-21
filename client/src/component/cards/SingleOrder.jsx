@@ -36,7 +36,7 @@ function SingleOrder({ membership, setRefreshMemberships }) {
   }, [sendDocument]);
 
   const sendDocumentMembershipFee = async (formData) => {
-    formData.append('status', situation?.status);
+    formData.append('statusSituation', situation?.statusSituation);
     formData.append(
       'reason',
       MEMBERSHIPFEE_CONSTANTS.reason_validation_pending
@@ -68,9 +68,9 @@ function SingleOrder({ membership, setRefreshMemberships }) {
           <div className="crancy-table__product">
             <div className="crancy-table__product-content">
               <h4 className="crancy-table__product-title">
-                {membership?.type === 'ORDI'
+                {membership?.typeMembership === 'ORDI'
                   ? 'Ordinaria'
-                  : situation?.type === 'EXTR'
+                  : situation?.typeMembership === 'EXTR'
                   ? 'Extraordinaria'
                   : ''}
               </h4>

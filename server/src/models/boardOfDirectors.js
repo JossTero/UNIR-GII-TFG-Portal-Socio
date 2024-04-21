@@ -9,7 +9,7 @@ const boardOfDirectorsScheme = new Schema(
       default: Date.now,
       unique: true,
     },
-    status: {
+    statusBoardOfDirector: {
       type: String,
       required: true,
       trim: true,

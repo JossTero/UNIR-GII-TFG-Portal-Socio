@@ -8,7 +8,7 @@ const membershipFeeSituationScheme = new Schema(
       required: true,
       trim: true,
     },
-    status: {
+    statusSituation: {
       type: String,
       required: true,
       trim: true,

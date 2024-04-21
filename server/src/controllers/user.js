@@ -100,8 +100,8 @@ const update = async (req, res, next) => {
         name: req.body.name,
         surname: req.body.surname,
         secondSurname: req.body.secondSurname,
-        type: req.body.type,
-        status: req.body.status,
+        userType: req.body.userType,
+        userStatus: req.body.userStatus,
       }
     );
     if (!userUpdated) {

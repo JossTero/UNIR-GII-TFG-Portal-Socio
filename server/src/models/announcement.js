@@ -4,7 +4,7 @@ const { DDBB_CONSTANTS } = require("../constants");
 
 const announcementScheme = new Schema(
   {
-    type: {
+    typeAnnouncement: {
       type: String,
       required: true,
       trim: true,

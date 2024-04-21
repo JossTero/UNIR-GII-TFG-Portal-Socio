@@ -63,7 +63,7 @@ const readActive = async (req, res, next) => {
   try {
     const boardOfDirectorsFound = await BoardOfDirectorsModel.findOne({
       associationCode: req.params.associationCode,
-      status: 'ACTI',
+      statusBoardOfDirector: 'ACTI',
     });
     if (!boardOfDirectorsFound) {
       const response = {

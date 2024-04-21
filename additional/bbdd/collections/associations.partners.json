@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "658ea85d872753c2bede95f2"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "María Gracia",
   "surname": "Ferreira",
   "secondSurname": "Pacheco",
@@ -25,7 +25,7 @@
   "addressProvince": "Santa Cruz de Tenerife",
   "addressPostalCode": "38663",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 1,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -65,7 +65,7 @@
   "_id": {
     "$oid": "658ea8bf872753c2bede95f9"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Lorena",
   "surname": "Serra",
   "secondSurname": "Gálvez",
@@ -88,7 +88,7 @@
   "addressProvince": "Zamora",
   "addressPostalCode": "49005",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 2,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -128,7 +128,7 @@
   "_id": {
     "$oid": "658ea9a6872753c2bede9600"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Kevin",
   "surname": "Serra",
   "secondSurname": "Moreno",
@@ -151,7 +151,7 @@
   "addressProvince": "Valladolid",
   "addressPostalCode": "47276",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 3,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -191,7 +191,7 @@
   "_id": {
     "$oid": "658eaa02872753c2bede9607"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Ana Belén",
   "surname": "Chacón",
   "secondSurname": "Granados",
@@ -214,7 +214,7 @@
   "addressProvince": "Navarra",
   "addressPostalCode": "31912",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 4,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -254,7 +254,7 @@
   "_id": {
     "$oid": "658eaab3872753c2bede960e"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Eneko",
   "surname": "Medina",
   "secondSurname": "Miranda",
@@ -277,7 +277,7 @@
   "addressProvince": "Soria",
   "addressPostalCode": "42094",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 5,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -317,7 +317,7 @@
   "_id": {
     "$oid": "658eab22872753c2bede9615"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Abril",
   "surname": "Cervera",
   "secondSurname": "Salazar",
@@ -340,7 +340,7 @@
   "addressProvince": "Ávila",
   "addressPostalCode": "05601",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 6,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -380,7 +380,7 @@
   "_id": {
     "$oid": "658eab8c872753c2bede961c"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Jorge",
   "surname": "Peña",
   "secondSurname": "Araujo",
@@ -403,7 +403,7 @@
   "addressProvince": "Ávila",
   "addressPostalCode": "05234",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 7,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -443,7 +443,7 @@
   "_id": {
     "$oid": "658eac2b872753c2bede9623"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "José Enrique",
   "surname": "Ayala",
   "secondSurname": "Olmo",
@@ -466,7 +466,7 @@
   "addressProvince": "Salamanca",
   "addressPostalCode": "37729",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 8,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -506,7 +506,7 @@
   "_id": {
     "$oid": "658eacdf872753c2bede9633"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Lourdes",
   "surname": "Herrera",
   "secondSurname": "Bartolomé",
@@ -529,7 +529,7 @@
   "addressProvince": "Barcelona",
   "addressPostalCode": "08420",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 9,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",
@@ -569,7 +569,7 @@
   "_id": {
     "$oid": "658ead48872753c2bede9641"
   },
-  "type": "NUME",
+  "typePartner": "NUME",
   "name": "Soraya",
   "surname": "Cárdenas",
   "secondSurname": "Lucas",
@@ -592,7 +592,7 @@
   "addressProvince": "Guadalajara",
   "addressPostalCode": "19897",
   "addressComplement": "",
-  "status": "ACTI",
+  "statusPartner": "ACTI",
   "partnerNumber": 11,
   "associationCode": "asoc-estudiantes-unir",
   "auditUser": "administrador@gmail.com",

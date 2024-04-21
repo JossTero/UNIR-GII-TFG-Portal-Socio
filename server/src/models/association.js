@@ -4,7 +4,7 @@ const { DDBB_CONSTANTS } = require("../constants");
 
 const associationScheme = new Schema(
   {
-    type: {
+    typeAssociation: {
       type: String,
       required: true,
       trim: true,

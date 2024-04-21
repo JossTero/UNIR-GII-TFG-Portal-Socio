@@ -3,7 +3,7 @@
     "$oid": "658eaeb9872753c2bede96b2"
   },
   "situationNumber": 1,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PECO",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -29,7 +29,7 @@
     "$oid": "658eaebf872753c2bede96ba"
   },
   "situationNumber": 1,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PECO",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -55,7 +55,7 @@
     "$oid": "658eaed3872753c2bede96c2"
   },
   "situationNumber": 1,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PECO",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -81,7 +81,7 @@
     "$oid": "658eaed8872753c2bede96ca"
   },
   "situationNumber": 1,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PECO",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -107,7 +107,7 @@
     "$oid": "658eaede872753c2bede96d2"
   },
   "situationNumber": 1,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PECO",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -133,7 +133,7 @@
     "$oid": "658eb6b6872753c2bee5171c"
   },
   "situationNumber": 2,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PEVA",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -159,7 +159,7 @@
     "$oid": "658eb6c8872753c2bee56084"
   },
   "situationNumber": 2,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PEVA",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -185,7 +185,7 @@
     "$oid": "658eb6da872753c2bee5b189"
   },
   "situationNumber": 2,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PEVA",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -211,7 +211,7 @@
     "$oid": "658eb6e8872753c2bee5eca9"
   },
   "situationNumber": 2,
-  "status": "EARR",
+  "statusSituation": "EARR",
   "reason": "PEVA",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -237,7 +237,7 @@
     "$oid": "658eb733872753c2bee6b097"
   },
   "situationNumber": 3,
-  "status": "CODE",
+  "statusSituation": "CODE",
   "reason": "COBR",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -263,7 +263,7 @@
     "$oid": "658eb738872753c2bee6bde4"
   },
   "situationNumber": 3,
-  "status": "CODE",
+  "statusSituation": "CODE",
   "reason": "COBR",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",
@@ -289,7 +289,7 @@
     "$oid": "658eb73d872753c2bee6cc08"
   },
   "situationNumber": 3,
-  "status": "CODE",
+  "statusSituation": "CODE",
   "reason": "COBR",
   "paymentMethod": "EFEC",
   "associationCode": "asoc-estudiantes-unir",

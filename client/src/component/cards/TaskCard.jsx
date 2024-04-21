@@ -45,13 +45,13 @@ function TaskCard({ announcement }) {
         } mg-top-25`}
       >
         <h4 className="crancy-tasksingle__title">
-          {announcement?.type === 'NOTI'
+          {announcement?.typeAnnouncement === 'NOTI'
             ? 'Noticia'
-            : announcement?.type === 'ASOR'
+            : announcement?.typeAnnouncement === 'ASOR'
             ? 'Asamblea ordiaria'
-            : announcement?.type === 'ASEX'
+            : announcement?.typeAnnouncement === 'ASEX'
             ? 'Asamblea extraordinaria'
-            : announcement?.type === 'EVEN'
+            : announcement?.typeAnnouncement === 'EVEN'
             ? 'Evento'
             : ''}
           : {announcement?.title}

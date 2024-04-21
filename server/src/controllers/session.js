@@ -14,7 +14,7 @@ const { loginSchema } = require('../validations/user');
 const login = async (req, res, next) => {
   try {
     const userFound = await validationLogin(req, res);
-    if (userFound.type != USER_CONSTANTS.typePartner) {
+    if (userFound.userType != USER_CONSTANTS.typePartner) {
       throw new Error('Tipo de usuario no válido');
     }
     return autentificacionUserOK(req, res, userFound, next);
@@ -27,7 +27,7 @@ const login = async (req, res, next) => {
 const loginAdministrator = async (req, res, next) => {
   try {
     const userFound = await validationLogin(req, res);
-    if (userFound.type != USER_CONSTANTS.typeAdmin) {
+    if (userFound.userType != USER_CONSTANTS.typeAdmin) {
       throw new Error('Tipo de usuario no válido');
     }
     return autentificacionUserOK(req, res, userFound, next);
@@ -140,7 +140,7 @@ const validationLogin = async (req, res) => {
     throw new RequestError('Autentificación inválida', 401);
   }
 
-  if (userFound.status != USER_CONSTANTS.statusActive) {
+  if (userFound.userStatus != USER_CONSTANTS.statusActive) {
     throw new RequestError('Autentificación inválida', 401);
   }
   return userFound;

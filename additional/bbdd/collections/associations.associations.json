@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "658ea607872753c2bede95eb"
   },
-  "type": "01",
+  "typeAssociation": "01",
   "code": "asoc-estudiantes-unir",
   "documentType": "CIF",
   "documentNumber": "Q4249446H",

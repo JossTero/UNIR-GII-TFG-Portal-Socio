@@ -8,7 +8,7 @@ const membershipScheme = new Schema(
       required: true,
       trim: true,
     },
-    type: {
+    typeMembership: {
       type: String,
       required: true,
       trim: true,

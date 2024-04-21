@@ -7,8 +7,8 @@ const getStructureUserResponse = (user) => {
     surname: user.surname,
     secondSurname: user.secondSurname,
     registrationDate: user.registrationDate,
-    type: user.type,
-    status: user.status,
+    userType: user.userType,
+    userStatus: user.userStatus,
     associationCode: user.associationCode,
     partnerId: user.partnerId,
   };

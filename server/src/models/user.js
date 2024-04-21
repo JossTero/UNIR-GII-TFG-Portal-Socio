@@ -38,12 +38,12 @@ const userScheme = new Schema(
       trim: true,
       default: Date.now,
     },
-    type: {
+    userType: {
       type: String,
       required: true,
       trim: true,
     },
-    status: {
+    userStatus: {
       type: String,
       required: true,
       trim: true,
