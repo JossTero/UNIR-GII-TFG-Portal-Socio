@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"username\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\"\r\n}",
+					"raw": "{\r\n  \"username\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -131,7 +131,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"type\": \"master\",\r\n  \"status\": \"acti\",\r\n  \"associationCode\": \"\",\r\n  \"auditUser\": \"\"\r\n}",
+					"raw": "{\r\n  \"email\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"José Enrique\",\r\n  \"surname\": \"Ayala\",\r\n  \"secondSurname\": \"Olmo\",\r\n  \"userType\": \"PARTNER\",\r\n  \"userStatus\": \"ACTI\",\r\n  \"associationCode\": \"asoc-estudiantes-unir\",\r\n  \"auditUser\": \"administrador\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -168,7 +168,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"username\": \"prueba1@gmail.com\",\r\n  \"email\": \"prueba1@gmail.com\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"registrationDate\": \"2023-09-27T21:11:35.119Z\",\r\n  \"userType\": \"master\",\r\n  \"userStatus\": \"ACTI\",\r\n  \"auditUser\": \"administrador\"\r\n}",
+					"raw": "{\r\n  \"email\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"José Enrique\",\r\n  \"surname\": \"Ayala\",\r\n  \"secondSurname\": \"Olmo\",\r\n  \"userType\": \"PARTNER\",\r\n  \"userStatus\": \"INAC\",\r\n  \"associationCode\": \"asoc-estudiantes-unir\",\r\n  \"auditUser\": \"administrador\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -205,7 +205,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"type\": \"master\",\r\n  \"status\": \"acti\",\r\n  \"associationCode\": \"\",\r\n  \"auditUser\": \"\"\r\n}",
+					"raw": "{\r\n  \"email\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"José Enrique\",\r\n  \"surname\": \"Ayala\",\r\n  \"secondSurname\": \"Olmo\",\r\n  \"userType\": \"PARTNER\",\r\n  \"userStatus\": \"ACTI\",\r\n  \"associationCode\": \"asoc-estudiantes-unir\",\r\n  \"auditUser\": \"administrador\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -245,7 +245,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"prueba@gmail.com\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"Encarna\",\r\n  \"surname\": \"Vales\",\r\n  \"secondSurname\": \"Triunfo\",\r\n  \"type\": \"master\",\r\n  \"status\": \"acti\",\r\n  \"associationCode\": \"\",\r\n  \"auditUser\": \"\"\r\n}",
+					"raw": "{\r\n  \"email\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\",\r\n  \"name\": \"José Enrique\",\r\n  \"surname\": \"Ayala\",\r\n  \"secondSurname\": \"Olmo\",\r\n  \"userType\": \"PARTNER\",\r\n  \"userStatus\": \"ACTI\",\r\n  \"associationCode\": \"asoc-estudiantes-unir\",\r\n  \"auditUser\": \"administrador\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -282,7 +282,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"username\": \"administrador@gmail.com\",\r\n  \"password\": \"prueba123456\"\r\n}",
+					"raw": "{\r\n  \"username\": \"joseenrique.ayala@estudiantes-unir.es\",\r\n  \"password\": \"prueba123456\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -404,7 +404,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/1/asociaciones/asoc-profesores-unir",
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-estudiantes-unir",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -414,7 +414,7 @@
 						"api",
 						"1",
 						"asociaciones",
-						"asoc-profesores-unir"
+						"asoc-estudiantes-unir"
 					]
 				}
 			},
@@ -433,7 +433,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"_id\": \"65148b0ee17f92a043f0974b\",\r\n  \"type\": \"01\",\r\n  \"code\": \"asoc-muriasdesanabria\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"R7240313B\",\r\n  \"businessName\": \"Asociación cultural de Murias de Sanabria\",\r\n  \"constitutionDate\": \"01/02/2021\",\r\n  \"phone\": \"654477777\",\r\n  \"addressTypeOfRoad\": \"CALL\",\r\n  \"addressStreet\": \"Falsa\",\r\n  \"addressNumber\": \"123\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Madrid\",\r\n  \"addressProvince\": \"Madrid\",\r\n  \"addressPostalCode\": \"28005\",\r\n  \"addressComplement\": \"\"\r\n}",
+					"raw": "{\r\n  \"typeAssociation\": \"01\",\r\n  \"code\": \"asoc-estudiantes-unir\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"Q4249446H\",\r\n  \"businessName\": \"Asociación de estudiantes de la UNIR\",\r\n  \"phone\": \"+34 916 585 391\",\r\n  \"constitutionDate\": \"01/02/2020\",\r\n  \"addressTypeOfRoad\": \"Avenida\",\r\n  \"addressStreet\": \"De la paz\",\r\n  \"addressNumber\": \"145\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Logroño\",\r\n  \"addressProvince\": \"La Rioja\",\r\n  \"addressPostalCode\": \"26006\",\r\n  \"addressComplement\": \"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -441,7 +441,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/1/asociaciones/asoc-muriasdesanabria",
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-estudiantes-unir",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -451,7 +451,7 @@
 						"api",
 						"1",
 						"asociaciones",
-						"asoc-muriasdesanabria"
+						"asoc-estudiantes-unir"
 					]
 				}
 			},
@@ -517,7 +517,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/1/asociaciones/asoc-muriasdesanabria",
+					"raw": "http://localhost:5000/api/1/asociaciones/asoc-estudiantes-unir",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -527,7 +527,7 @@
 						"api",
 						"1",
 						"asociaciones",
-						"asoc-muriasdesanabria"
+						"asoc-estudiantes-unir"
 					]
 				}
 			},
@@ -549,7 +549,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"type\": \"01\",\r\n  \"code\": \"asoc-muriasdesanabria8\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"R7240313B\",\r\n  \"businessName\": \"Asociación cultural de Murias de Sanabria\",\r\n  \"constitutionDate\": \"01/02/2021\",\r\n  \"phone\": \"654473124\",\r\n  \"addressTypeOfRoad\": \"CALL\",\r\n  \"addressStreet\": \"Falsa\",\r\n  \"addressNumber\": \"123\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Madrid\",\r\n  \"addressProvince\": \"Madrid\",\r\n  \"addressPostalCode\": \"28005\",\r\n  \"addressComplement\": \"\",\r\n  \"auditUser\": \"JossTero\"\r\n}",
+					"raw": "{\r\n  \"typeAssociation\": \"01\",\r\n  \"code\": \"asoc-estudiantes-unir\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"Q4249446H\",\r\n  \"businessName\": \"Asociación de estudiantes de la UNIR\",\r\n  \"phone\": \"+34 916 585 391\",\r\n  \"constitutionDate\": \"01/02/2020\",\r\n  \"addressTypeOfRoad\": \"Avenida\",\r\n  \"addressStreet\": \"De la paz\",\r\n  \"addressNumber\": \"145\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Logroño\",\r\n  \"addressProvince\": \"La Rioja\",\r\n  \"addressPostalCode\": \"26006\",\r\n  \"addressComplement\": \"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -589,7 +589,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"type\": \"01\",\r\n  \"code\": \"asoc-muriasdesanabria8\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"R7240313B\",\r\n  \"businessName\": \"Asociación cultural de Murias de Sanabria\",\r\n  \"constitutionDate\": \"01/02/2021\",\r\n  \"phone\": \"654473124\",\r\n  \"addressTypeOfRoad\": \"CALL\",\r\n  \"addressStreet\": \"Falsa\",\r\n  \"addressNumber\": \"123\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Madrid\",\r\n  \"addressProvince\": \"Madrid\",\r\n  \"addressPostalCode\": \"28005\",\r\n  \"addressComplement\": \"\",\r\n  \"auditUser\": \"JossTero\"\r\n}",
+					"raw": "{\r\n  \"typeAssociation\": \"01\",\r\n  \"code\": \"asoc-estudiantes-unir\",\r\n  \"documentType\": \"CIF\",\r\n  \"documentNumber\": \"Q4249446H\",\r\n  \"businessName\": \"Asociación de estudiantes de la UNIR\",\r\n  \"phone\": \"+34 916 585 391\",\r\n  \"constitutionDate\": \"01/02/2020\",\r\n  \"addressTypeOfRoad\": \"Avenida\",\r\n  \"addressStreet\": \"De la paz\",\r\n  \"addressNumber\": \"145\",\r\n  \"addressPortal\": \"\",\r\n  \"addressBlock\": \"\",\r\n  \"addressStaircase\": \"\",\r\n  \"addressFloor\": \"\",\r\n  \"addressDoor\": \"\",\r\n  \"addressPopulation\": \"Logroño\",\r\n  \"addressProvince\": \"La Rioja\",\r\n  \"addressPostalCode\": \"26006\",\r\n  \"addressComplement\": \"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
