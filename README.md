@@ -88,9 +88,9 @@ Con un software de peticiones a endpoints como:
     - 3.27. POST:    http://localhost:5000/api/1/:code/documentos/
     - 3.28. PUT:     http://localhost:5000/api/1/:code/documentos/:idDocumento/documento
 
-- Estos son algunos de los endpoints facilitados, que se ayudan a cargar información en el sistema para simular el punto de vista de la asociación y del administrador de la asociación. No obstante, cada objeto del modelo de datos dispone de funciones CRUD para su utilización a través de endpoints.
+- **Estos son algunos de los endpoints facilitados. Permiten cargar información en el sistema para simular el punto de vista de la asociación y del administrador de la asociación. No obstante, cada objeto del modelo de datos dispone de funciones CRUD para su utilización a través de endpoints.**
 - El puerto depende de como se haya configurado el servidor, en este proyecto el puerto por defecto ha sido el 5000.
-- El pathParam ":code" es el código de la asociación defindo en la colección *associations* del modelo de datos. En este ejemplo es "*asoc-estudiantes-unir*".
+- El pathParam ":code" es el código de la asociación defindo en la colección *associations* del modelo de datos. En este ejemplo es "**asoc-estudiantes-unir**".
 - El resto de pathParams son identificadores de los objetos a los que se quiere acceder, dependerá del objeto.
 
 
